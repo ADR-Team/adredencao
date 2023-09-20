@@ -11,8 +11,13 @@ Aplicação para Check-ins em academias.
 - [ ] access_levels;
 - [ ] ecclesiastical_positions;
 - [ ] address;
-- [ ] user;
+- [ ] users;
 - [ ] churches;
+- [ ] events;
+- [ ] logs_inserts;
+- [ ] logs_updates;
+- [ ] logs_deletes;
+- [ ] logs_exceptions;
 
 
 ## Colunas (access_levels)
@@ -25,20 +30,98 @@ Aplicação para Check-ins em academias.
 - [ ] id;
 - [ ] name;
 
-## Colunas da Tabela (address)
-
-- [ ] id;
-- [ ] rua;
-- [ ] bairro;
-- [ ] numero;
-- [ ] bairro;
-- [ ] cidade;
-- [ ] estado;
-
-## Colunas da Tabela (ecclesiastical_positions)
+## Colunas da Tabela (users)
 
 - [ ] id;
 - [ ] name;
+- [ ] email;
+
+## Colunas da Tabela (address)
+
+- [ ] id;
+- [ ] street;
+- [ ] number;
+- [ ] district;
+- [ ] zip_code;
+- [ ] add_on_address;
+- [ ] city;
+- [ ] state;
+- [ ] ecclesiastical_positions_id;
+- [ ] user_id;
+
+## Colunas (telephones)
+
+- [ ] id;
+- [ ] telephone;
+
+## Colunas da Tabela (address_churches)
+
+- [ ] id;
+- [ ] street;
+- [ ] number;
+- [ ] district;
+- [ ] zip_code;
+- [ ] add_on_address;
+- [ ] city;
+- [ ] state;
+- [ ] churche_id;
+
+## Colunas (churches)
+
+- [ ] id;
+- [ ] churche;
+
+## Colunas da Tabela (address_events)
+
+- [ ] id;
+- [ ] street;
+- [ ] number;
+- [ ] district;
+- [ ] zip_code;
+- [ ] add_on_address;
+- [ ] city;
+- [ ] state;
+- [ ] event_id;
+
+## Colunas (events)
+
+- [ ] id;
+- [ ] title;
+- [ ] description;
+- [ ] datetime;
+- [ ] date_hour;
+- [ ] churche_id;
+
+## Colunas (logs_inserts)
+
+- [ ] id;
+- [ ] title;
+- [ ] description;
+- [ ] user_id;
+
+## Colunas (logs_updates)
+
+- [ ] id;
+- [ ] title;
+- [ ] description;
+- [ ] user_id;
+
+## Colunas (logs_deletes)
+
+- [ ] id;
+- [ ] title;
+- [ ] description;
+- [ ] user_id;
+
+## Colunas (logs_exceptions)
+
+- [ ] id;
+- [ ] title_exception <!-- Criar codigo para mostrar ao usuario e dps buscarmos no banco a exception -->
+- [ ] summary_exception;
+- [ ] complete_exception;
+- [ ] user_id;
+
+
 
 # Convenções de nomenclatura para banco de dados
 
