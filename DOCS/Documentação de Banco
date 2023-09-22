@@ -20,106 +20,122 @@ Aplicação para Check-ins em academias.
 - [ ] logs_exceptions;
 
 
-## Colunas (access_levels)
+## Colunas (roles)
 
-- [ ] id;
-- [ ] name;
+- [x] id;
+- [x] name;
 
 ## Colunas da Tabela (ecclesiastical_positions)
 
-- [ ] id;
-- [ ] name;
+- [x] id;
+- [x] name;
 
 ## Colunas da Tabela (users)
 
-- [ ] id;
-- [ ] name;
-- [ ] email;
+- [x] id;
+- [x] name;
+- [x] name_complete;
+- [x] email;
+- [x] cpf;
+- [x] rg;
+- [x] name_father;
+- [x] name_mother;
+- [x] gender;
+- [x] profession;
+- [x] employed;
+- [x] education;
+- [x] date_of_birth;
+- [x] date_of_baptism;
+- [x] date_of_union;
+- [x] marital_status;
+- [x] is_a_leader;
+- [x] situation;
+- [x] role_id;
+- [x] ecclesiastical_positions_id;
 
 ## Colunas da Tabela (address)
 
-- [ ] id;
-- [ ] street;
-- [ ] number;
-- [ ] district;
-- [ ] zip_code;
-- [ ] add_on_address;
-- [ ] city;
-- [ ] state;
-- [ ] ecclesiastical_positions_id;
-- [ ] user_id;
+- [x] id;
+- [x] street;
+- [x] number;
+- [x] district;
+- [x] zip_code;
+- [x] add_on_address;
+- [x] city;
+- [x] state;
+- [x] user_id;
 
 ## Colunas (telephones)
 
-- [ ] id;
-- [ ] telephone;
-
-## Colunas da Tabela (address_churches)
-
-- [ ] id;
-- [ ] street;
-- [ ] number;
-- [ ] district;
-- [ ] zip_code;
-- [ ] add_on_address;
-- [ ] city;
-- [ ] state;
-- [ ] churche_id;
+- [x] id;
+- [x] telephone;
+- [x] user_id;
 
 ## Colunas (churches)
 
-- [ ] id;
-- [ ] churche;
+- [x] id;
+- [x] churche;
 
-## Colunas da Tabela (address_events)
+## Colunas da Tabela (address_churches)
 
-- [ ] id;
-- [ ] street;
-- [ ] number;
-- [ ] district;
-- [ ] zip_code;
-- [ ] add_on_address;
-- [ ] city;
-- [ ] state;
-- [ ] event_id;
+- [x] id;
+- [x] street;
+- [x] number;
+- [x] district;
+- [x] zip_code;
+- [x] add_on_address;
+- [x] city;
+- [x] state;
+- [x] churche_id;
 
 ## Colunas (events)
 
-- [ ] id;
-- [ ] title;
-- [ ] description;
-- [ ] datetime;
-- [ ] date_hour;
-- [ ] churche_id;
+- [x] id;
+- [x] title;
+- [x] description;
+- [x] date_hour;
+- [x] churche_id;
+
+## Colunas da Tabela (address_events)
+
+- [x] id;
+- [x] street;
+- [x] number;
+- [x] district;
+- [x] zip_code;
+- [x] add_on_address;
+- [x] city;
+- [x] state;
+- [x] event_id;
 
 ## Colunas (logs_inserts)
 
-- [ ] id;
-- [ ] title;
-- [ ] description;
-- [ ] user_id;
+- [x] id;
+- [x] title;
+- [x] description;
+- [x] user_id;
 
 ## Colunas (logs_updates)
 
-- [ ] id;
-- [ ] title;
-- [ ] description;
-- [ ] user_id;
+- [x] id;
+- [x] title;
+- [x] description;
+- [x] user_id;
 
 ## Colunas (logs_deletes)
 
-- [ ] id;
-- [ ] title;
-- [ ] description;
-- [ ] user_id;
+- [x] id;
+- [x] title;
+- [x] description;
+- [x] user_id;
 
 ## Colunas (logs_exceptions)
 
-- [ ] id;
-- [ ] title_exception <!-- Criar codigo para mostrar ao usuario e dps buscarmos no banco a exception -->
-- [ ] summary_exception;
-- [ ] complete_exception;
-- [ ] user_id;
+- [x] id;
+- [x] title_exception <!-- Criar codigo para mostrar ao usuario e dps buscarmos no banco a exception -->
+- [x] summary_exception;
+- [x] complete_exception;
+- [x] user_id;
 
 
 
