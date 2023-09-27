@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Api.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api.Data
 {
@@ -10,6 +11,8 @@ namespace Api.Data
         {
             Configuration = configuration;
         }
+
+        public DbSet<AddressEvent> AddressEvents { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
